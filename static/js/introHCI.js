@@ -39,6 +39,9 @@ function projectClick(e) {
     } else {
        description.fadeOut();
     }
+
+    var media = $(containingProject).find("img");
+    media.toggleClass("inactivePic")
 }
 
 /*
